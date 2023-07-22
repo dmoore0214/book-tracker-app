@@ -3,26 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
     <title>Book Tracker App</title>
 </head>
 <body>
     <a href = "signup.html">Sign Up</a>
     <a href= "login.html">Log In</a>
     <h1>Book Tracker App</h1>
-    <div class = "LastBook">
-        <h2> Last Book Read</h2>
+    <div class="container">
+    <div class = "LastBook top">
+        <h2>Last Book Read</h2>
+        <img alt="Last book read"/>
+        <p>Title:</p>
+        <p>Author: </p>
+        <p>Rating: </p>
+        <textarea class="LastBook" placeholder="notes about last book"></textarea>
+        <button class="Add">Add</button>
     </div>
-    <div class = "Monthly Stats">
-        <h2> Monthly Stats</h2>
+    <div  class = "Monthly Stats top">
+         <h2>Monthly Stats</h2>
+         <p>Pages Read: </p>
+         <p>Time Listened: </p>
+         <p>Books Read: </p>
+         <p>Modes of Reading: </p>
+         <p>Genres:</p>
+         <p>Favorite Book of Month: </p>
+         <img alt="Favorite Book Of Month"/>
     </div>
-    <div class = "Yearly Stats">
+    <div   class = "Yearly Stats top">
         <h2>Yearly Stats</h2>
+        <p>Pages Read: </p>
+        <p>Time Listened: </p>
+         <p>Books Read: </p>
+         <p>Modes of Reading: </p>
+         <p>Genres:</p>
+         <p>Favorite Book: </p>
+         <img alt="Favorite Book Of Year"/>
     </div>
-    <div class = "NextBook">
+    </div>
+    <div class="containerBottom">
+    <div class = "NextBook bottom">
         <h2>What's Next?</h2>
+        <p>Option 1: <img/></p>
+        <p>Option 2: <img/></p>
+        <p>Option 3: <img/></p>
     </div>
-    <div class = "CurrentBook">
+    <div class = "CurrentBook bottom">
         <h2>Currently Reading</h2>
+        <img alt="Current Book reading"/>
+        <p>Title: </p>
+        <p>Author: </p>
+        <p>Pages Read/Time Listened: </p>
     </div>
+</div>
 </body>
 </html>
