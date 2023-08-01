@@ -38,3 +38,9 @@ h1{
     border: 1px solid white;
     flex-basis: 50%;
 }
+.month, .second-half,.total{
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: space-between;
+}
